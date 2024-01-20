@@ -1,0 +1,71 @@
+Power BI: Bins and Lists
+
+Overview
+
+This documentation provides a detailed guide on using bins and lists in Power BI. Bins and lists are powerful features that enable users to group and categorize data for easier analysis and visualization. The tutorial covers the creation of lists for non-numeric data like customer names and bins for numeric and date data such as ages and purchase dates.
+
+Prerequisites
+
+- Data Source: Download the provided data from the GitHub link mentioned in the description to follow along.
+
+Creating Lists
+
+1. Customer Lists
+
+- Selection: Choose a non-numeric column, e.g., "Customer."
+
+- Creation: Right-click on the column, select "New Group," and choose "List."
+
+- Grouping: Manually group items into lists, e.g., "The Best Prepping Stores" and "The Worst Prepping Stores."
+
+- Naming: Rename the created groups for clarity.
+
+2. Order ID Lists
+
+- Selection: Choose a numeric column, e.g., "Order ID."
+
+- Creation: Right-click, select "New Group," and choose "List."
+
+- Grouping: Group orders into categories, e.g., "The First Orders" and "The Latest Orders."
+
+- Naming: Rename groups accordingly.
+
+Creating Bins
+
+1. Age Bins
+
+- Selection: Choose a numeric column, e.g., "Age."
+
+- Creation: Right-click, select "New Group," and choose "Bin."
+
+- Configuration: Choose bin size (e.g., 10 for age groups) or the number of bins.
+
+- Result: Automatic grouping of ages into bins, making it easier to analyze age demographics.
+
+2. Date Bins
+
+- Selection: Choose a date column, e.g., "Date Purchased."
+
+- Creation: Right-click, select "New Group," and choose "Bin."
+
+- Configuration: Specify bin size, e.g., "Months."
+
+- Result: Automatic grouping of dates into bins, simplifying monthly analysis.
+
+Visualizing Data
+
+1. Age Distribution
+
+- Visualization: Use a suitable chart to visualize the distribution of buyer age and corresponding buyer IDs.
+
+- Drill Down: Utilize the drill-down feature to explore detailed information within age bins.
+
+2. Customer Lists and Units Sold
+
+- Visualization: Create a visualization to compare customer lists and units sold.
+
+- Insights: Analyze performance differences between "The Best Prepping Stores" and "The Worst Prepping Stores."
+
+Conclusion
+
+This documentation has provided a step-by-step guide on creating lists and bins in Power BI. By utilizing these features, users can efficiently group and categorize data, leading to more insightful visualizations and analyses. Experiment with different data sets and visualization types to maximize the benefits of lists and bins in Power BI.
