@@ -1,0 +1,69 @@
+Power BI - Building Relationships Documentation
+
+Introduction
+
+Building relationships in Power BI is crucial when working with multiple tables from the same or different data sources. Properly connecting tables ensures that the data is seamlessly integrated, facilitating the creation of meaningful visualizations. This documentation provides a step-by-step guide on how to build relationships in Power BI.
+
+Data Overview
+
+Tables:
+
+1. Apocalypse Store:
+   - Product ID
+   - Product Name
+   - Price
+   - Production Cost
+
+2. Apocalypse Sales:
+   - Customer ID
+   - Customer Name
+   - Product ID
+   - Order ID
+   - Units Sold
+   - Date Purchased
+
+3. Customer Information:
+   - Customer ID
+   - Customer Address
+   - City
+   - State
+   - Zip Code
+
+Loading Data into Power BI
+
+1. Use the "Import Data" feature to load tables from Excel into Power BI.
+2. Navigate to the Model tab to view the relationships between tables.
+
+Understanding Default Relationships
+
+1. Observe the automatically created relationships between tables.
+2. Recognize the lines connecting tables, indicating relationships.
+
+Editing Relationships
+
+1. Double-click on a relationship line to open the Edit Relationship page.
+2. Review and modify the columns used for the relationship.
+3. Change Cardinality based on the number of rows in each table.
+4. Adjust the Cross Filter Direction for more accurate data representation.
+
+Demonstration of Cross Filter Direction
+
+1. Illustrate the impact of Cross Filter Direction using visualization.
+2. Compare "Single" and "Both" options to understand data aggregation behavior.
+
+Creating Relationships from Scratch
+
+1. Drag tables onto each other to create relationships.
+2. Open Edit Relationship to modify Cardinality and Cross Filter Direction.
+3. Make relationships "active" to set the default connection between tables.
+
+Data Visualization Demonstration
+
+1. Create a sample visualization using tables with active relationships.
+2. Use measures and dimensions to display accurate data based on relationships.
+
+Conclusion:
+
+Building relationships in Power BI is a fundamental step for creating cohesive and insightful visualizations. 
+This documentation serves as a comprehensive guide to understanding, editing, and creating relationships within the Power BI environment. 
+Properly connected tables enhance data analysis capabilities and contribute to the creation of compelling reports and dashboards.
