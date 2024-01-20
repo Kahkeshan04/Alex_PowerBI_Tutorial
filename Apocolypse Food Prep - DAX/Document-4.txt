@@ -1,0 +1,73 @@
+Power BI: Building Relationships and Introduction to DAX
+
+Overview
+
+This documentation provides a comprehensive guide on building relationships between tables and introduces Data Analysis Expressions (DAX) in Power BI. 
+The tutorial covers steps to establish relationships, basic DAX functions, and their application in creating measures and calculated columns.
+
+Building Relationships
+
+1. Importing Data
+
+- Source Data: The tutorial uses data from Apocalypse Sales and Apocalypse Store tables, connected via the Product ID.
+
+- Data Inspection: Before proceeding to Power BI, understanding the data structure in Excel is essential. Tables include Apocalypse Store (Product ID, Product Name, Price, Production Cost), Apocalypse Sales (Customer, Product ID, Order ID, Units Sold, Date Purchased), and Customer Information.
+
+2. Loading Data into Power BI
+
+- Importing tables into Power BI without data transformation.
+
+3. Establishing Relationships
+
+- Automatic Relationships: Power BI often detects and establishes relationships automatically based on column names.
+
+- Manual Relationship Creation: Demonstration of creating relationships manually by double-clicking on the connecting line between tables.
+
+- Cardinality and Cross Filter Direction: Explanation of one-to-many, one-to-one, and many-to-many cardinalities, along with single and both cross-filter directions.
+
+- Active Relationship: Demonstrating the concept of an active relationship and its impact on default connections.
+
+- Example Visualization: Building a visualization to showcase the impact of cross-filter direction on data representation.
+
+4. Deleting and Recreating Relationships
+
+- Deleting existing relationships for demonstration purposes.
+
+- Creating relationships from scratch, specifying cardinality and cross-filter direction.
+
+Introduction to DAX
+
+1. DAX Basics
+
+- Definition: DAX stands for Data Analysis Expressions, a library of functions and operators in Power BI.
+
+- Purpose: Used to create measures and calculated columns, offering deeper insights into data.
+
+2. Creating Measures
+
+- Count of Sales: Demonstrating the creation of a simple measure using the COUNT function on the Order ID.
+
+- Sum of Products Sold: Creating a measure using the SUM function to analyze the total units sold.
+
+- Profit Calculation: Building a measure to calculate profit by subtracting production cost from price and multiplying by units sold.
+
+- Understanding SumX: Differentiating between SUM and SUMX, illustrating the need for iterators for row-level calculations.
+
+3. Date Functions in DAX
+
+- Creating a Day of the Week Column: Introduction to DAX functions for dates, showcasing the WEEKDAY function.
+
+- Visualization of Date Data: Utilizing date-related DAX functions for visualizations, comparing month-based and day-of-the-week-based analyses.
+
+4. IF Statements in DAX
+
+- Order Size Column: Implementing the IF statement in DAX to categorize orders as 'Big' or 'Small' based on the quantity sold.
+
+5. Visualization of DAX Results
+
+- Using Measures in Visualizations: Visualizing the impact of DAX measures in Power BI reports.
+
+Conclusion:
+
+This documentation provides a step-by-step guide to building relationships and understanding basic DAX functions in Power BI. 
+Users are encouraged to explore further DAX functionalities based on specific analytical requirements.
