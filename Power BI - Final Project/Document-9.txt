@@ -1,0 +1,78 @@
+Data Professional Survey Dashboard Project Documentation
+
+Overview:
+
+This project involves creating a dashboard to visualize and analyze survey data collected from data professionals. The primary goal is to gain insights into demographics, job roles, salary distribution, programming language preferences, and sentiments regarding work-life balance and salary satisfaction.
+
+Tools Used:
+
+- Power BI for data transformation and visualization
+- Excel for initial data cleaning and exploration
+
+Data Source:
+
+The raw survey data was provided in a CSV format. It contained various fields such as unique ID, job title, programming language preference, country, age, and responses to questions related to work-life balance and salary satisfaction.
+
+Data Cleaning:
+
+1. Handling Missing Values: Checked for missing values and decided on appropriate strategies. For this project, rows with missing essential information were dropped.
+
+2. Data Transformation: Converted data types where necessary (e.g., transforming salary from text to decimal). Also, created new columns, like transforming job titles to standard categories.
+
+3. Removing Duplicates: Checked and removed duplicate entries to ensure data integrity.
+
+Exploratory Data Analysis:
+
+1. Initial Exploration: Utilized Excel for initial exploration to understand the structure and content of the data.
+
+2. Power BI Transformation: Imported the data into Power BI for further exploration, data transformation, and visualization.
+
+Data Transformation in Power BI:
+
+1. Grouping Job Titles: Merged similar job titles into broader categories for clearer visualizations.
+
+2. Creating Age Group Categories: Grouped ages for a more straightforward representation in visualizations.
+
+3. Creating Visualizations: Utilized Power BI visuals such as clustered bar charts, treemaps, gauges, and pie charts to represent key metrics.
+
+Visualizations:
+
+1. Count of Survey Takers: A card visual displaying the total number of survey participants.
+
+2. Average Age of Survey Takers: Another card visual presenting the average age of survey participants.
+
+3. Average Salary by Job Title: A clustered bar chart showcasing the average salary for different job titles.
+
+4. Favorite Programming Languages: A clustered column chart indicating the count of respondents for each programming language.
+
+5. Country of Survey Takers: A treemap showcasing the distribution of survey participants by country.
+
+6. Happiness Metrics: Gauges illustrating respondents' satisfaction with work-life balance and salary.
+
+7. Difficulty in Breaking into Data Science: A pie chart showing the distribution of responses regarding the difficulty of breaking into data science.
+
+8. Average Salary by Gender: A pie chart indicating the average salary for male and female respondents.
+
+Dashboard Organization:
+
+1. Layout: Structured the dashboard layout to allow for clear organization and easy navigation.
+
+2. Theme: Applied a customized theme to enhance visual appeal and consistency.
+
+3. Title Modification: Adjusted titles for clarity and conciseness.
+
+Documentation of Visuals:
+
+1. Card Visuals: Represent high-level information in a compact form.
+
+2. Bar Charts: Provide detailed insights into salary distribution based on job titles.
+
+3. Treemap: Illustrates the geographical distribution of survey participants.
+
+4. Gauges: Offer a quick view of respondents' happiness metrics.
+
+5. Pie Charts: Represent gender-based salary differences and the difficulty of breaking into data science.
+
+Conclusion:
+
+This dashboard provides a comprehensive view of the survey data, enabling stakeholders to understand key trends and make informed decisions. The visuals are organized for easy interpretation, and the project documentation serves as a guide for future updates or replication.
