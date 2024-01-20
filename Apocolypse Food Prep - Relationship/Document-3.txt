@@ -2,7 +2,9 @@ Power BI - Building Relationships Documentation
 
 Introduction
 
-Building relationships in Power BI is crucial when working with multiple tables from the same or different data sources. Properly connecting tables ensures that the data is seamlessly integrated, facilitating the creation of meaningful visualizations. This documentation provides a step-by-step guide on how to build relationships in Power BI.
+Building relationships in Power BI is crucial when working with multiple tables from the same or different data sources. 
+Properly connecting tables ensures that the data is seamlessly integrated, facilitating the creation of meaningful visualizations. 
+This documentation provides a step-by-step guide on how to build relationships in Power BI.
 
 Data Overview
 
