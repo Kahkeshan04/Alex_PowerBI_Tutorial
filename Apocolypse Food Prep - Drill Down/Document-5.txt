@@ -1,0 +1,65 @@
+Power BI: Drill Down and Hierarchy Visualization
+
+Overview
+
+This documentation provides an in-depth guide on the implementation of drill-down features and hierarchy visualization in Power BI. The tutorial covers practical scenarios, such as drilling down into data layers and utilizing hierarchies for more detailed insights.
+
+Introduction
+
+Drill Down: The process of adding layers beneath the top level of a visualization to reveal more detailed information. Users can drill down and up to navigate through different levels of data.
+
+Hierarchy Visualization: Utilizing hierarchies in Power BI to organize and present data in a structured manner. Hierarchies enable users to view data at various levels, enhancing the depth of analysis.
+
+Drill Down Implementation
+
+1. Data Preparation
+
+- Data Source: The tutorial uses data from "Apocalypse Sales" and "Purchase Tracker." Users can download the data from the provided GitHub link in the description.
+
+2. Basic Drill Down
+
+- Initial Visualization: Creating a basic visualization with stores and prices.
+
+- Store-Product Hierarchy: Establishing a hierarchy between "Store" and "Product" to enable drill-down functionalities.
+
+- Drill Down Modes:
+  - Turn on Drill Down: Enabling drill-down mode to interact with different data layers.
+  - Next Level in Hierarchy: Navigating down to the next level in the hierarchy.
+  - Expand All Down One Level: Visualizing data differently by breaking it down individually.
+
+3. Advanced Drill Down Example
+
+- Customer and Order IDs: Demonstrating a practical use case where customers and order IDs are visualized.
+
+- Drilling Down into Order IDs: Turning on drill-down mode to explore order IDs associated with each customer.
+
+4. Customizing Visualizations
+
+- Adjusting Visualizations: Modifying visualizations based on user preferences and data representation needs.
+
+- Highlighting: Discussing the difference between drill-down and highlighting in terms of data representation.
+
+Hierarchy Visualization
+
+1. Importance of Hierarchy
+
+- Structured Data Presentation: Exploring the significance of organizing data into hierarchies for clarity.
+
+- Hierarchy in Different Scenarios: Highlighting that the usefulness of hierarchy visualization depends on the nature of the data.
+
+2. Implementing Hierarchies
+
+- Hierarchical Data: Identifying columns suitable for hierarchies, e.g., date, category, location.
+
+- Building Hierarchies: Creating hierarchies based on identified columns.
+
+3. Visualization with Hierarchies
+
+- Practical Example: Utilizing hierarchies in scenarios like sales data with customers, products, and order details.
+
+- Interactivity: Exploring the interactive features enabled by hierarchies, such as drill-downs.
+
+Conclusion:
+
+This documentation provides a comprehensive guide to implementing drill-down features and hierarchy visualization in Power BI. 
+Users are encouraged to apply these techniques based on their specific analytical needs, enhancing the depth and clarity of data analysis.
