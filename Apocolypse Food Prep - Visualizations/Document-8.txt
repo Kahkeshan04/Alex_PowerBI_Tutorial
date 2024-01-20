@@ -1,0 +1,120 @@
+Power BI: Visualization Options and Techniques
+
+Overview
+
+This documentation provides an overview of various visualization options and techniques in Power BI. It walks through the creation of popular visualizations, highlighting their uses and considerations. The aim is to help users understand when to use each visualization type effectively.
+
+Prerequisites: 
+Ensure you have the data used in the tutorial. You can download it from the provided link in the description.
+
+Stacked Bar Chart:
+
+Purpose: Visualize unit sales across different products.
+
+Steps:
+1. Drag and drop "Product Name" to the y-axis.
+2. Add "Unit Sold" to the x-axis.
+3. Add color coding by dragging "Product Name" to the legend.
+
+Customization:
+
+- Resize and format data labels for clarity.
+- Title: "Product Sales Overview."
+
+100 Stacked Column Chart:
+
+Purpose: Analyze customer-wise unit sales for various products.
+
+Steps:
+1. Use "Customer" for the x-axis and "Unit Sold" for the y-axis.
+2. Break down by "Product Name" in the legend.
+
+Customization:
+
+- Title: "Customer Purchase Breakdown."
+
+Line Chart:
+
+Purpose: Track the trend of unit sales over time.
+
+Steps:
+1. Utilize "Date Purchased" for the x-axis and "Unit Sold" for the y-axis.
+2. Break down by "Product Name" for detailed insights.
+
+Customization:
+
+- Filter by top products for a clearer view.
+- Title: "Products Purchased by Date."
+
+Line and Clustered Column Chart:
+
+Purpose: Compare product prices and production costs.
+
+Steps:
+1. Place "Product Name" on the x-axis.
+2. Use "Price" and "Production Cost" for the y-axis.
+3. Create a visual representation of pricing and production costs.
+
+Customization:
+
+- Resize and format labels for clarity.
+- Title: "Price vs. Production Cost."
+
+Scatter Chart:
+
+Purpose: Identify outliers and trends between price and production cost.
+
+Steps: 
+1. Set "Price" as the x-axis and "Production Cost" as the y-axis.
+2. Use "Product Name" to distinguish data points.
+
+Customization:
+
+- Adjust color and size of data points for clarity.
+- Title: "Scatter Plot of Price vs. Production Cost."
+
+Pie Chart and Donut Chart
+
+Purpose: Showcase the distribution of total purchases by state.
+
+Steps:
+1. Utilize "State" for the values and "Total Purchased" for sizes.
+2. Choose between Pie or Donut chart.
+
+Customization:
+
+- Adjust label positions and formats.
+- Title: "Total Purchases by State."
+
+Card:
+
+Purpose: Display single or multiple key metrics.
+
+Steps:
+1. Use "Total Purchased" in the card visualization.
+
+Customization:
+
+- Resize and format for desired appearance.
+- Title: "Total Purchased Overview."
+
+Table
+
+Purpose: Present detailed data in a tabular format.
+
+Steps:
+1. Utilize "Customer" and "Units Sold" for columns.
+2. Display relevant information in a structured manner.
+
+Customization:
+
+- Resize and format for clarity.
+- Title: "Detailed Customer Purchase Information."
+
+Conclusion:
+
+This documentation has covered various popular visualizations in Power BI, providing step-by-step guidance on creating and customizing each. Experiment with these visualizations to convey data insights effectively. Remember that the choice of visualization depends on the nature of your data and the story you want to tell.
+
+---
+
+*Note: This documentation assumes a basic understanding of Power BI. Users are encouraged to explore additional features and functionalities for a more comprehensive experience.*
