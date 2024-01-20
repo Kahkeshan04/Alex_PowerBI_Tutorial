@@ -1,0 +1,60 @@
+Power BI Project Documentation
+
+Introduction:
+This documentation outlines the process of creating a Power BI project focused on analyzing expenses related to apocalypse food preparation. 
+The dataset used in this project is derived from an Excel workbook named "Apocalypse Food Prep."
+
+Data Connection
+1. Connect to Excel Workbook:
+   - Open Power BI.
+   - Choose "Excel Workbook" as the data source.
+   - Navigate to the "Apocalypse Food Prep" file in the Power BI Tutorials folder.
+   - Click "Connect."
+
+2. Data Preview:
+   - Access the Navigator to preview the available sheets.
+   - Select "Apocalypse Food Prep" for analysis.
+
+3. Power Query:
+   - Transfer to Power Query for data transformation.
+   - Renamed the "Date" column to "Date Purchased."
+   - Filtered out irrelevant data (e.g., "Milk" for apocalypse preparation).
+   - Applied steps are documented in the "Applied Steps" panel.
+
+4. Data Loading:
+   - Load the transformed data into Power BI Desktop.
+
+Power BI Interface Overview
+1. Data Tab:
+   - Accessed the "Data" tab to review loaded data.
+   - Examined columns and made quick observations about the dataset.
+
+2. Model Tab:
+   - The "Model" tab, is useful for managing relationships between multiple tables (not applicable in this case).
+
+3. Report Tab:
+   - Navigated to the "Report" tab for visualization creation.
+
+Initial Data Analysis
+1. Data Exploration:
+   - Investigated the dataset for purchasing patterns over months.
+   - Analyzed the products and stores involved in the apocalypse food preparation.
+
+2. First Visualization: Best Store or Product
+   - Created a stacked column chart to compare total spending at different stores.
+   - Identified Costco as the most cost-effective option.
+   - Noticed variations in prices for specific products at different stores.
+
+3. Second Visualization: Total by Store:
+   - Developed a clustered column chart to compare product-wise spending across stores.
+   - Noted differences in prices for various products at different stores.
+
+4. Formatting:
+   - Adjusted the visuals for better presentation.
+   - Added relevant titles to each visualization.
+   - Included data labels for clarity.
+
+Documentation Conclusion:
+In a short timeframe, the project transitioned from data connection to insightful visualizations. 
+Initial findings suggest Costco as the preferred store for apocalypse food preparation, with exceptions for certain products available at other stores at a lower cost. 
+Subsequent videos in the series will delve deeper into specific Power BI functionalities, providing a comprehensive understanding for creating sophisticated dashboards.
